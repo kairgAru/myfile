@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Elements</title>
+</head>
+<body>
+
+   <form action="/submit" method="post">
+
+    <fieldset>
+        <legend>Личные данные</legend>
+       <label for="username">Введите имя:</label>
+       <input type="text" id="username" name="username" required>
+<br></br>
+       <label for="email">Введите почту:</label>
+       <input type="email" id="email" name="email" required>
+<br></br>
+       <label for="password">Введите пароль:</label>
+       <input type="password" id="password" name="password" required>
+<br></br>
+       
+       <label for="message">Коментарии:</label>
+       <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+<br></br>
+       <button type="submit">Отправить </button>   
+       <button type="reset">Сбросить</button>
+       <label for="country">Выбор страны:</label>
+       <select id="country" name="country" required>
+           <option value="">Выберете страну</option>
+           <option value="us">Россия </option>
+           <option value="ca">США</option>
+           <option value="uk">Канада</option>
+        <button type="submit">Отправить </button>   
+        <button type="reset">Сбросить</button>
+       </select>
+       </fieldset>
+
+   </form>
+
+
+</body>
+</html>
