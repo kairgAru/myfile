@@ -18,10 +18,10 @@ h1 {
 }
 
 .big {
-  color: orange;
+  color: rgb(30, 0, 255);
 }
 
-
+/* высокий приоритет */
 #my-text {
   color: red;
 }
